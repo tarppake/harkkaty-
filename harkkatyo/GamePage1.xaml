@@ -8,12 +8,24 @@
     mc:Ignorable="d" Width="800" Height="600">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Canvas Background="MistyRose">
-            
-            <Button x:Name="BackButton" 
-                    Content="Takaisin" Margin="10" 
+
+        <Canvas x:Name="Tausta"
+                Width="800"
+                Height="600"
+                Background="Lavender"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"/>
+        <Button x:Name="BackButton" 
+                    Content="Takaisin" Margin="30" 
                     VerticalAlignment="Top" HorizontalAlignment="Left" 
                     Click="BackButton_Click"/>
-        </Canvas>
+       
+    
+
+
+
+
     </Grid> 
+    
+    
 </Page>
